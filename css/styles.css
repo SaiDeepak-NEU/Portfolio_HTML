@@ -11179,3 +11179,63 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
   
 }
 
+.experience-card, .education-card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card-image, .education-card-image {
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.experience-card-image img, .education-card-image img {
+  max-width: 150px; /* Adjust as needed */
+  height: auto;
+  border-radius: 4px;
+}
+
+.experience-card-body, .education-card-body {
+  flex-grow: 1;
+}
+
+.experience-card-body h3, .education-card-body h3 {
+  margin-top: 0;
+}
+
+.experience-card-body ul, .education-card-body p {
+  margin: 0;
+}
+
+.experience-card-body ul {
+  padding-left: 20px;
+}
+
+.experience-card-body li, .education-card-body p {
+  margin-bottom: 8px;
+}
+
+.text-primary {
+  color: #007bff; /* Adjust as needed */
+}
+
+.experience-card-header {
+  display: flex;
+    justify-content: space-between; /* Pushes items to the edges */
+    align-items: center; /* Centers items vertically */
+    margin-bottom: 15px; /* Space below the header */
+}
+
+.experience-card-header .subheading {
+  margin: 0; /* Removes default margin */
+}
+
+.experience-card-header .text-primary {
+  margin: 0; /* Removes default margin */
+}
+
